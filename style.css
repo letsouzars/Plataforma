@@ -1,12 +1,13 @@
 canvas {
     border: 2px solid black;
-    background-image: url(https://pbs.twimg.com/profile_images/1425138403289489413/bHGqLqAk_400x400.jpg);
+    background-image: url(Design\ sem\ nome.jpg);
      background-repeat: no-repeat;
-     background-color: white;
+     background-size: 95vw;
+     
 }
 body {
     text-align: center;
-    background-color: rgb(0, 183, 255); 
+    background-color:white
    
    
 }

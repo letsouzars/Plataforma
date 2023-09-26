@@ -49,8 +49,11 @@ function update() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // Desenha o jogador
-    ctx.fillStyle = 'red';
-    ctx.fillRect(player.x, player.y, player.width, player.height);
+    // ctx.fillStyle = 'red';
+    const Pou = new Image();
+    Pou.src = "Pou.png"
+    ctx.drawImage(Pou, player.x, player.y,player.width, player.height );
+    // ctx.fillRect(player.x, player.y, player.width, player.height);
 
     // Atualiza a posição do jogador com a gravidade
     player.y += player.velocityY;
